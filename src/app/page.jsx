@@ -26,7 +26,7 @@ const Home = () => {
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-              <a href="assets/M.Huzaifa Resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="https://drive.google.com/file/d/1Sw2m0NOjZUhSrKUiyFBqfBWkC6WIAXl1/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 <Button
                   variant="outline"
                   size="lg"

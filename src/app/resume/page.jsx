@@ -1,11 +1,12 @@
 "use client";
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
-import { SiTailwindcss, SiNextdotjs, SiCplusplus, SiJava, SiPython, SiFlask, SiMysql, SiGit } from 'react-icons/si';
+import { SiTailwindcss, SiNextdotjs, SiFlutter, SiDart, SiFirebase, SiMongodb, SiCplusplus, SiJava, SiPython, SiFlask, SiMysql, SiGit } from 'react-icons/si';
 
 //about data
 const about = {
     title: 'About me',
-    description: "I'm a passionate web developer skilled in building modern web applications using front-end and some back-end technologies. I enjoy creating responsive, dynamic, and user-focused web apps that solve real-world problems.",
+    description:
+    "I'm a passionate Web Developer specializing in building modern, responsive, and scalable web applications using React, Next.js, JavaScript, and related technologies. I also develop cross-platform mobile applications with Flutter and enjoy creating clean, user-focused digital experiences. I'm passionate about solving real-world problems, continuously learning new technologies, and delivering high-quality software solutions.",
     info: [
         {
             fieldName: "Name",
@@ -35,13 +36,17 @@ const about = {
             fieldName: "Languages",
             fieldValue: "English, Urdu"
         },
+        {
+            fieldName: "Location",
+            fieldValue: "Rawalpindi, Punjab, Pakistan"
+        },
     ]
 };
 
 //experience data
 const experience = {
     icon: '/assets/resume/badge.svg',
-    title: 'My experience',
+    title: 'Experience',
     items: [
         {
             company: "ECODECAMP (PVT.) LTD",
@@ -55,13 +60,13 @@ const experience = {
 //education data
 const education = {
     icon: '/assets/resume/cap.svg',
-    title: 'My education',
+    title: 'Education',
     items: [
         {
             institution: "NATIONAL SKILLS UNIVERSITY, ISLAMABAD",
             degree: "BS COMPUTER SCIENCE",
             duration: "2022 – 2026",
-            grade: "3.29 CGPA"
+            grade: "3.35 CGPA"
         },
         {
             institution: "FAZAIA DEGREE COLLEGE, ARF COLONY, KAMRA",
@@ -98,11 +103,23 @@ const skills = {
         },
         {
             icon: <SiTailwindcss />,
-            name: "Tailwind.css",
+            name: "Tailwind CSS",
         },
         {
             icon: <FaNodeJs />,
             name: "Node.js",
+        },
+        {
+            icon: <SiFlutter />,
+            name: "Flutter",
+        },
+        {
+            icon: <SiDart />,
+            name: "Dart",
+        },
+        {
+            icon: <SiFirebase />,
+            name: "Firebase",
         },
         {
             icon: <SiCplusplus />,
@@ -123,6 +140,10 @@ const skills = {
         {
             icon: <SiMysql />,
             name: "SQL",
+        },
+        {
+            icon: <SiMongodb />,
+            name: "MongoDB",
         },
         {
             icon: <SiGit />,
@@ -154,7 +175,7 @@ const Resume = () => {
                         <TabsTrigger value="experience">Experience</TabsTrigger>
                         <TabsTrigger value="education">Education</TabsTrigger>
                         <TabsTrigger value="skills">Skills</TabsTrigger>
-                        <TabsTrigger value="about">About me</TabsTrigger>
+                        <TabsTrigger value="about">About</TabsTrigger>
                     </TabsList>
 
                     {/* content */}
@@ -192,7 +213,7 @@ const Resume = () => {
                         {/* education */}
                         <TabsContent value="education" className="w-full">
                         <div className="flex flex-col gap-6 text-center xl:text-left">
-                            <h3 className="text-4xl xl:text-5xl font-bold">{education.title}</h3>
+                            <h3 className="text-4xl font-bold">{education.title}</h3>
 
                             <ScrollArea className="h-[400px]">
                             <ul className="flex flex-col gap-6">

@@ -4,30 +4,34 @@ import { BsArrowDownRight } from 'react-icons/bs'
 import Link from 'next/link';
 
 const services = [
-    {
-        num: '01',
-        title: 'Web Development',
-        description: 'I build responsive and modern websites tailored to your needs. From sleek front-ends to full-stack applications, I’ve got you covered.',
-        href: ""
-    },
-    {
-        num: '02',
-        title: 'Front-End Design',
-        description: 'I create clean and user-friendly interfaces using HTML, CSS, JavaScript, and Tailwind CSS to ensure a seamless user experience across all devices.',
-        href: ""
-    },
-    {
-        num: '03',
-        title: 'React Projects',
-        description: 'I develop fast, interactive, and scalable web apps using React. From single-page applications to complex UIs, I bring dynamic features to life.',
-        href: ""
-    },
-    {
-        num: '04',
-        title: 'Full-Stack Solutions',
-        description: 'Combining Flask (Python) with modern front-end tools, I build complete full-stack apps, from database design to deployment.',
-        href: ""
-    },
+  {
+    num: "01",
+    title: "Web Development",
+    description:
+      "I build modern, responsive, and high-performance websites using React, Next.js, Tailwind CSS, and JavaScript, delivering fast and user-friendly digital experiences.",
+    href: "",
+  },
+  {
+    num: "02",
+    title: "Mobile App Development",
+    description:
+      "I develop cross-platform mobile applications with Flutter, creating beautiful, responsive, and scalable apps for both Android and iOS from a single codebase.",
+    href: "",
+  },
+  {
+    num: "03",
+    title: "Frontend Development",
+    description:
+      "I create clean, accessible, and interactive user interfaces with React, Next.js, HTML, CSS, Tailwind CSS, and modern UI libraries, ensuring seamless experiences across all devices.",
+    href: "",
+  },
+  {
+    num: "04",
+    title: "Full Stack Development",
+    description:
+      "I build complete web applications by combining modern frontend technologies with Firebase, Flask (Python), REST APIs, authentication, databases, and cloud deployment.",
+    href: "",
+  },
 ];
 
 import { motion } from 'framer-motion';

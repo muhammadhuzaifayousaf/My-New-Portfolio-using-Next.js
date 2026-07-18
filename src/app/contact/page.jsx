@@ -31,7 +31,7 @@ const info = [
     {
         icon: <FaMapMarkedAlt />,
         title: "Address",
-        description: "Kamra, Punjab, Pakistan",
+        description: "Rawalpindi, Punjab, Pakistan",
     },
 ];
 
@@ -193,6 +193,9 @@ const Contact = () => {
                                         <SelectLabel>Select a service</SelectLabel>
                                         <SelectItem value="Web Development">
                                             Web Development
+                                        </SelectItem>
+                                        <SelectItem value="Mobile App Development">
+                                            Mobile App Development
                                         </SelectItem>
                                         <SelectItem value="Other">Other</SelectItem>
                                     </SelectGroup>

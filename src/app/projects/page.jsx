@@ -12,7 +12,7 @@ import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/comp
 
 import Link from "next/link";
 import Image from "next/image";
-import WorkSliderBtns from "@/components/WorkSliderBtns";
+import ProjectSliderBtns from "@/components/ProjectSliderBtns";
 
 const projects = [
     {
@@ -22,200 +22,232 @@ const projects = [
         stack: [
             {name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'}, {name: 'Bootstrap'},
         ],
-        image: "/assets/work/First Portfolio.png",
+        image: "/assets/projects/First Portfolio.png",
         live: "https://muhammadhuzaifayousaf.github.io/",
         github: "https://github.com/muhammadhuzaifayousaf/muhammadhuzaifayousaf.github.io",
     },
     {
         num: "02",
+        title: "SmartServeAI",
+        description:
+            "An AI-powered intelligent service marketplace that connects service seekers with verified local service providers. The platform features AI chatbot assistance, secure authentication, provider verification, ratings & reviews, real-time communication, and a modern Flutter mobile application backed by Firebase.",
+        stack: [
+            { name: "Flutter" },
+            { name: "Firebase" },
+            { name: "Cloudinary" },
+            { name: "Google Maps API" },
+            { name: "Gemini API" },
+        ],
+        image: "/assets/projects/SmartServeAI.png",
+        live: "",
+        github: "https://github.com/abdulsamad010/fyp_smart_serve_ai",
+    },
+    {
+        num: "03",
+        title: "E-Commerce Frontend",
+        description:
+            "A modern and responsive e-commerce frontend featuring product browsing, category filtering, shopping cart, product details, authentication UI, and a clean user experience. Built with reusable React components and optimized for performance across all devices.",
+        stack: [
+            { name: "React.js" },
+            { name: "Vite" },
+            { name: "Tailwind CSS" },
+            { name: "JavaScript" },
+            { name: "Local Storage" },
+        ],
+        image: "/assets/projects/Ecommerce Frontend.png",
+        live: "https://muhammadhuzaifayousaf.github.io/ecommerce-frontend/",
+        github: "https://github.com/muhammadhuzaifayousaf/ecommerce-frontend",
+    },
+    {
+        num: "04",
         title: "Contacts — CS50x 2025 Final Project",
         description: "A full-stack contact management app built as the final project for Harvard's CS50x course. Add, view, update, and delete contacts with a responsive and modern UI",
         stack: [
             {name: 'React.js'}, {name: 'CSS'}, {name: 'Flask'}, {name: 'Python'},
         ],
-        image: '/assets/work/Contacts.png',
+        image: '/assets/projects/Contacts.png',
         live: "",
         github: "https://github.com/muhammadhuzaifayousaf/Contacts-CS50x_2025-Final-Project",
     },
     {
-        num: "03",
+        num: "05",
         title: "Birthday Manager",
         description: "A simple and responsive web application for managing birthdays. Users can add, edit, update, and delete birthdays",
         stack: [
             {name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'}, {name: "Local Storage (Browser)"},
         ],
-        image: "/assets/work/Birthday Manager.png",
+        image: "/assets/projects/Birthday Manager.png",
         live: "https://birthdays-manager.netlify.app",
         github: "https://github.com/muhammadhuzaifayousaf/Birthday-Manager",
     },
     {
-        num: "04",
+        num: "06",
         title: "CS50x 2025",
         description: "My Solution for the Harvard CS50's Introduction to Computer Science course",
         stack: [
             {name: "Web Development"}, {name: 'C'}, {name: 'Python'}, {name: "Flask"}, {name: "SQL"},
         ],
-        image: "/assets/work/CS50x.png",
+        image: "/assets/projects/CS50x.png",
         live: "",
         github: "https://github.com/muhammadhuzaifayousaf/CS50X_Computer_Science",
     },
     {
-        num: "05",
+        num: "07",
         title: "Tic-Tac-Toe Game",
         description: "A simple and elegant Tic-Tac-Toe game. Two players take turns to place their marks (X and O) and the game highlights the winner and keeps track of wins.",
         stack: [
             {name: 'React.js'}, {name: 'CSS'}, {name: 'Vite'},
         ],
-        image: '/assets/work/Tic-Tac-Toe.png',
+        image: '/assets/projects/Tic-Tac-Toe.png',
         live: "https://muhammadhuzaifayousaf.github.io/Tic-Tac-Toe_Game_React-JS",
         github: "https://github.com/muhammadhuzaifayousaf/Tic-Tac-Toe_Game_React-JS",
     },
     {
-        num: "06",
+        num: "08",
         title: "Simple Calculator",
         description: "A simple and interactive calculator that supports basic arithmetic operations",
         stack: [
             {name: 'React.js'}, {name: 'CSS'},
         ],
-        image: "/assets/work/Calculator App.png",
+        image: "/assets/projects/Calculator App.png",
         live: "https://muhammadhuzaifayousaf.github.io/Simple-Calculator-using-React",
         github: "https://github.com/muhammadhuzaifayousaf/Simple-Calculator-using-React",
     },
     {
-        num: "07",
+        num: "09",
         title: "THE NEWS",
         description: "Responsive news website with multiple sections, live news updates using API, search functionality, and mobile-friendly design.",
         stack: [
             {name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'},
         ],
-        image: "/assets/work/News Website.png",
+        image: "/assets/projects/News Website.png",
         live: "https://muhammadhuzaifayousaf.github.io/THE-NEWS_EcodeCamp-Internship",
         github: "https://github.com/muhammadhuzaifayousaf/THE-NEWS_EcodeCamp-Internship",
     },
     {
-        num: "08",
+        num: "10",
         title: "To-Do List Web App",
         description: "A simple To-Do List application that allows you to add, edit, delete, and mark tasks as complete or pending, with a visually appealing interface and dark mode support.",
         stack: [
             {name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'}, {name: "Local Storage"},
         ],
-        image: "/assets/work/To-Do List App.png",
+        image: "/assets/projects/To-Do List App.png",
         live: "https://muhammadhuzaifayousaf.github.io/To-Do_List_App-Brainwave_Matrix_Intern",
         github: "https://github.com/muhammadhuzaifayousaf/To-Do_List_App-Brainwave_Matrix_Intern",
     },
     {
-        num: "09",
+        num: "11",
         title: "Grill Master - Restaurant & Recipe Hub",
         description: "A website showcasing a fictional restaurant with a searchable recipe catalog.",
         stack: [
             {name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'},
         ],
-        image: "/assets/work/Grill Master - Restaurant & Recipe Hub.png",
+        image: "/assets/projects/Grill Master - Restaurant & Recipe Hub.png",
         live: "https://muhammadhuzaifayousaf.github.io/Grill-Master_Restaurant-and-Recipe-Hub_EcodeCamp-Internship",
         github: "https://github.com/muhammadhuzaifayousaf/Grill-Master_Restaurant-and-Recipe-Hub_EcodeCamp-Internship",
     },
     {
-        num: "10",
+        num: "12",
         title: "Introduction to Node.js (LFW111)",
         description: "My workspace for the Introduction to Node.js course. It includes the materials and work that I did throughout the course, showcasing various aspects of Node.js.",
         stack: [
             {name: 'Node.js'},
         ],
-        image: "/assets/work/Intro-to-Nodejs.png",
+        image: "/assets/projects/Intro-to-Nodejs.png",
         live: "",
         github: "https://github.com/muhammadhuzaifayousaf/Introduction-to-Node.js-LFW111",
     },
     {
-        num: "11",
+        num: "13",
         title: "HTML and CSS in depth",
         description: "My Workspace for the Meta HTML and CSS in depth course.",
         stack: [
             {name: 'HTML'}, {name: 'CSS'},
         ],
-        image: "/assets/work/HTML and CSS.png",
+        image: "/assets/projects/HTML and CSS.png",
         live: "",
         github: "https://github.com/muhammadhuzaifayousaf/HTML-and-CSS-in-depth",
     },
     {
-        num: "12",
+        num: "14",
         title: "Little Lemon Restaurant",
         description: "A responsive website for a fictional restaurant, created as part of the Meta HTML and CSS in depth course.",
         stack: [
             {name: 'HTML'}, {name: 'CSS'},
         ],
-        image: "/assets/work/Little Lemon.png",
+        image: "/assets/projects/Little Lemon.png",
         live: "https://muhammadhuzaifayousaf.github.io/HTML-and-CSS-in-depth",
         github: "https://github.com/muhammadhuzaifayousaf/HTML-and-CSS-in-depth/tree/main/docs",
     },
     {
-        num: "13",
+        num: "15",
         title: "Weather Now 🌤️",
         description: "This app provides real-time weather updates, including temperature, wind speed, humidity, and a 5-day weather forecast.",
         stack: [
             {name: 'HTML'}, {name: "Tailwind CSS"}, {name: 'JavaScript'},
         ],
-        image: "/assets/work/Weather App.png",
+        image: "/assets/projects/Weather App.png",
         live: "https://muhammadhuzaifayousaf.github.io/Weather-App",
         github: "https://github.com/muhammadhuzaifayousaf/Weather-App",
     },
     {
-        num: "14",
+        num: "16",
         title: "Simple Text Editor",
         description: "A Python-based text editor with features like Formating Text, Font Size, Style, and more.",
         stack: [
             {name: 'Python'}, {name: "Tkinter"}, {name: 'Pytest'},
         ],
-        image: "/assets/work/text-editor.jpg",
+        image: "/assets/projects/text-editor.jpg",
         live: "",
         github: "https://github.com/muhammadhuzaifayousaf/CS50_Python/tree/main/Simple%20Text%20Editor",
     },
     {
-        num: "15",
+        num: "17",
         title: "CS50P",
         description: "My Solution for the Harvard CS50's Introduction to Programming with Python course",
         stack: [
             {name: 'Python'},
         ],
-        image: "/assets/work/CS50P.png",
+        image: "/assets/projects/CS50P.png",
         live: "",
         github: "https://github.com/muhammadhuzaifayousaf/CS50_Python",
     },
     {
-        num: "16",
+        num: "18",
         title: "Simple Chatbot",
         description: "Created a simple chatbot that can engage in basic conversations with users using the spaCy library in Python.",
         stack: [
             {name: 'Python'}, {name: "spaCy"},
         ],
-        image: "/assets/work/chatbot.jpg",
+        image: "/assets/projects/chatbot.jpg",
         live: "",
         github: "https://github.com/muhammadhuzaifayousaf/Codeclause_AI_Internship/tree/main/Chatbot%20Creation",
     },
     {
-        num: "17",
+        num: "19",
         title: "Image Recognition using CNN",
         description: "Created a Convolutional Neural Network (CNN) based image classifier using Python and TensorFlow to categorize images into predefined categories.",
         stack: [
             {name: 'Python'}, {name: "TensorFlow"}, {name: "NumPy"}, {name: "Matplotlib"},
         ],
-        image: "/assets/work/Image Recognition.png",
+        image: "/assets/projects/Image Recognition.png",
         live: "",
         github: "https://github.com/muhammadhuzaifayousaf/Codeclause_AI_Internship/tree/main/Image%20Recognition",
     },
     {
-        num: "18",
+        num: "20",
         title: "Phonebook Application",
         description: "A phonebook application developed in C++ with features like contact management with search functionality and a user-friendly interface.",
         stack: [
             {name: 'C++'},
         ],
-        image: "/assets/work/phonebook.jpg",
+        image: "/assets/projects/phonebook.jpg",
         live: "",
         github: "https://github.com/muhammadhuzaifayousaf/Phonebook_in_Cpp",
     },
 ];
 
-const Work = () => {
+const Projects = () => {
     const [project, setProject] =useState(projects[0]);
 
     const handleSlideChange = (swiper) => {
@@ -320,7 +352,7 @@ const Work = () => {
                                 </SwiperSlide>;
                             })}
                             {/* slider buttons */}
-                            <WorkSliderBtns 
+                            <ProjectSliderBtns 
                                 containerStyles="flex gap-2 absolute right-0 bottom-[calc(50%_-_22px)] 
                                 xl:bottom-0 z-20 w-full justify-between xl:w-max
                                 xl:justify-none" 
@@ -335,4 +367,4 @@ const Work = () => {
     )
 }
 
-export default Work;
+export default Projects;
