@@ -21,15 +21,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body
-        className={JetBrainsMono.variable}
-      >
-        <Header />
-        <StairTransition />
-        <PageTransition>
-        {children}
-        </PageTransition>
-        <Footer />
+        <body
+          className={`${JetBrainsMono.variable} min-h-screen flex flex-col`}
+        >
+          <Header />
+          <StairTransition />
+          <main className="flex-1">
+          <PageTransition>
+          {children}
+          </PageTransition>
+          </main>
+          <Footer />
       </body>
     </html>
   );

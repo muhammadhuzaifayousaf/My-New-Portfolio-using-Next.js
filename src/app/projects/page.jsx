@@ -269,14 +269,14 @@ const Projects = () => {
                                 {project.num}
                             </div>
                             {/* project title */}
-                            <h2 className="text-[42px] font-bold leading-none text-white 
+                            <h2 className="text-3xl md:text-[42px] font-bold leading-none text-white 
                             group-hover:text-accent transition-all duration-500 capitalize">
                                 {project.title}
                             </h2>
                             {/* project description */}
                             <p className="text-white/60">{project.description}</p>
                             {/* stack */}
-                            <ul className="flex gap-4">
+                            <ul className="flex flex-wrap gap-4">
                                 {project.stack.map((item, index) => {
                                     return (
                                     <li key={index} className="text-xl text-accent">
