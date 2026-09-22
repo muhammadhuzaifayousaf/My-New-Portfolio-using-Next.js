@@ -6,7 +6,7 @@ import { SiTailwindcss, SiNextdotjs, SiFlutter, SiDart, SiFirebase, SiMongodb, S
 const about = {
     title: 'About me',
     description:
-    "I'm a passionate Web Developer specializing in building modern, responsive, and scalable web applications using React, Next.js, JavaScript, and related technologies. I also develop cross-platform mobile applications with Flutter and enjoy creating clean, user-focused digital experiences. I'm passionate about solving real-world problems, continuously learning new technologies, and delivering high-quality software solutions.",
+    "I'm a passionate Web Developer specializing in building modern, responsive, and scalable web applications using React, Next.js, JavaScript, MERN stack, and related technologies. I also develop cross-platform mobile applications with Flutter and enjoy creating clean, user-focused digital experiences. I'm passionate about solving real-world problems, continuously learning new technologies, and delivering high-quality software solutions.",
     info: [
         {
             fieldName: "Name",
@@ -18,7 +18,7 @@ const about = {
         },
         {
             fieldName: "Experience",
-            fieldValue: "2+ Years"
+            fieldValue: "1+ Years"
         },
         {
             fieldName: "Email",
@@ -49,6 +49,18 @@ const experience = {
     title: 'Experience',
     items: [
         {
+            company: "PAKISTAN AERONAUTICAL COMPLEX (PAC) KAMRA",
+            position: "INFORMATION TECHNOLOGY (IT) INTERNSHIP",
+            duration: "AUG 2026 – SEP 2026",
+            description: "During 6 weeks Internship at Mirage Rebuild Factory (MRF), Pakistan Aeronautical Complex (PAC) Kamra, gaining practical exposure to computer hardware, Windows administration, web development, networking, telecom systems, RAID, cybersecurity, software development, and AI. Also visited different sections and factories of PAC to understand the practical use of IT, engineering and advanced technologies in the aviation and defence environment."
+        },
+        {
+            company: "ITSIMPLERA SOLUTIONS",
+            position: "FRONT-END WEB DEVELOPMENT INTERNSHIP",
+            duration: "JUN 2026 – AUG 2026 (REMOTE)",
+            description: "During two-month remote Front-End Web Development Internship at ITSimplera Solutions, I developed Cartiqo, a full-stack eCommerce marketplace using React.js, Tailwind CSS, Node.js, Express.js, and MongoDB. Implemented responsive UI, authentication, product management, shopping cart, wishlist, reviews, orders, role-based functionality, seller/admin features, REST APIs, performance optimization, and deployed the application to production."
+        },
+        {
             company: "ECODECAMP (PVT.) LTD",
             position: "FRONTEND WEB DEVELOPER INTERN",
             duration: "SEP 2024 – OCT 2024 (REMOTE)",
@@ -66,7 +78,7 @@ const education = {
             institution: "NATIONAL SKILLS UNIVERSITY, ISLAMABAD",
             degree: "BS COMPUTER SCIENCE",
             duration: "2022 – 2026",
-            grade: "3.35 CGPA"
+            grade: "3.34 CGPA"
         },
         {
             institution: "FAZAIA DEGREE COLLEGE, ARF COLONY, KAMRA",
