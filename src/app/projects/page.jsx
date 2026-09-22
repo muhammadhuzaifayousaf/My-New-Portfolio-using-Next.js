@@ -345,7 +345,7 @@ const Projects = () => {
                                         z-10"></div>
                                         {/* image */}
                                         <div className="relative w-full h-full">
-                                            <Image src={project.image} fill className="object-cover" 
+                                            <Image src={project.image} fill className="object-contain" 
                                             alt="" />
                                         </div>
                                     </div>
