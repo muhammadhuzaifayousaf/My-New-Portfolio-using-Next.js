@@ -29,7 +29,7 @@ const services = [
     num: "04",
     title: "Full Stack Development",
     description:
-      "I build complete web applications by combining modern frontend technologies with Firebase, Flask (Python), REST APIs, authentication, databases, and cloud deployment.",
+      "I build complete web applications by combining modern frontend technologies with MERN stack, Firebase, Flask (Python), REST APIs, authentication, databases, and cloud deployment.",
     href: "",
   },
 ];
