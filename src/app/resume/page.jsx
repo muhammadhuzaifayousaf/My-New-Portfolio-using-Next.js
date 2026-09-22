@@ -6,7 +6,7 @@ import { SiTailwindcss, SiNextdotjs, SiFlutter, SiDart, SiFirebase, SiMongodb, S
 const about = {
     title: 'About me',
     description:
-    "I'm a passionate Web Developer specializing in building modern, responsive, and scalable web applications using React, Next.js, JavaScript, MERN stack, and related technologies. I also develop cross-platform mobile applications with Flutter and enjoy creating clean, user-focused digital experiences. I'm passionate about solving real-world problems, continuously learning new technologies, and delivering high-quality software solutions.",
+    "I'm a passionate Web Developer specializing in building modern, responsive, and scalable web applications using Tailwind CSS, Next.js, JavaScript, MERN stack, and related technologies. I also develop cross-platform mobile applications with Flutter and enjoy creating clean, user-focused digital experiences. I'm passionate about solving real-world problems, continuously learning new technologies, and delivering high-quality software solutions.",
     info: [
         {
             fieldName: "Name",
@@ -18,7 +18,7 @@ const about = {
         },
         {
             fieldName: "Experience",
-            fieldValue: "1+ Years"
+            fieldValue: "1+ Year"
         },
         {
             fieldName: "Email",

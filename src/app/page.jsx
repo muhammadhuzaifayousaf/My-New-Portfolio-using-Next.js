@@ -13,6 +13,7 @@ const roles = [
   "Web Developer",
   "Mobile App Developer",
   "Programmer",
+  "Software Developer",
   "AI Enthusiast",
 ];
 

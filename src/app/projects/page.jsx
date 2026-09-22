@@ -44,22 +44,75 @@ const projects = [
     },
     {
         num: "03",
-        title: "E-Commerce Frontend",
+        title: "Cartiqo",
         description:
-            "A modern and responsive e-commerce frontend featuring product browsing, category filtering, shopping cart, product details, authentication UI, and a clean user experience. Built with reusable React components and optimized for performance across all devices.",
+            "A full stack ecommerce marketplace featuring customer, seller and admin roles, product management, orders, reviews, image uploads and REST APIs. Frontend deployed on Vercel and backend on Render.",
         stack: [
             { name: "React.js" },
             { name: "Vite" },
             { name: "Tailwind CSS" },
             { name: "JavaScript" },
-            { name: "Local Storage" },
+            { name: "JWT" },
+            { name: "MongoDB" },
+            { name: "Express.js" },
+            { name: "Node.js" },
+            { name: "Cloudinary" },
         ],
-        image: "/assets/projects/Ecommerce Frontend.png",
-        live: "https://muhammadhuzaifayousaf.github.io/ecommerce-frontend/",
-        github: "https://github.com/muhammadhuzaifayousaf/ecommerce-frontend",
+        image: "/assets/projects/Cartiqo.png",
+        live: "https://cartiqo-shop.vercel.app/",
+        github: "https://github.com/muhammadhuzaifayousaf/cartigo-marketplace",
     },
     {
         num: "04",
+        title: "SkillSprint",
+        description:
+            "A modern Flutter app to manage learning sprints, daily goals, and progress with an offline-first architecture, local storage, and a clean UI. It allows users to set learning goals, manage daily tasks, monitor progress, maintain learning streaks and view statistics.",
+        stack: [
+            { name: "Flutter" },
+            { name: "Dart" },
+            { name: "Hive Database" },
+            { name: "Provider" },
+            { name: "Material 3" },
+        ],
+        image: "/assets/projects/SkillSprint.png",
+        live: "https://github.com/muhammadhuzaifayousaf/skillsprint-flutter/raw/refs/heads/main/APK/SkillSprint.apk",
+        github: "https://github.com/muhammadhuzaifayousaf/skillsprint-flutter",
+    },
+    {
+        num: "05",
+        title: "Emotion Detection",
+        description: "An AI powered Emotion Detection web application built with Python and Flask. It uses Watson NLP to analyze text and detect anger, disgust, fear, joy, sadness, and the dominant emotion. Includes a web interface, error handling, unit testing, Python packaging, and Pylint analysis.",
+        stack: [
+            {name: 'Python'}, {name: 'Flask'}, {name: 'Watson NLP'}, {name: 'HTML'}, {name: 'CSS'}, {name: 'JavaScript'}, {name: 'unittest'}, {name: 'Pylint'}
+        ],
+        image: '/assets/projects/Emotion-Detection.png',
+        live: "",
+        github: "https://github.com/muhammadhuzaifayousaf/emotion-detection",
+    },
+    {
+        num: "06",
+        title: "Recipe Sharing Space: Grill Master",
+        description: "A recipe sharing platform featuring recipe search, filtering, ratings, favorites, JWT authentication, user profiles, image uploads, and complete recipe CRUD through a REST API.",
+        stack: [
+            {name: 'React.js'}, {name: 'Vite'}, {name: 'Tailwind CSS'}, {name: 'Node.js'}, {name: 'Express.js'}, {name: 'JWT'}, {name: 'localStorage'},
+        ],
+        image: '/assets/projects/Recipe-Sharing-Space-Grill-Master.jpg',
+        live: "",
+        github: "https://github.com/muhammadhuzaifayousaf/recipe-sharing-space-grill-master",
+    },
+    {
+        num: "07",
+        title: "Paradise Nursery 🌿",
+        description: "Paradise Nursery is a React-based online houseplant shopping application features browsing a collection of houseplants, organized into different categories, add plants to a shopping cart, adjust quantities, remove products, and view the total cost of their cart.",
+        stack: [
+            {name: 'React'}, {name: 'Vite'}, {name: 'CSS'}, {name: 'JavaScript'}
+        ],
+        image: '/assets/projects/Paradise-Nursery.png',
+        live: "https://muhammadhuzaifayousaf.github.io/e-plantShopping",
+        github: "https://github.com/muhammadhuzaifayousaf/e-plantShopping",
+    },
+    {
+        num: "08",
         title: "Contacts — CS50x 2025 Final Project",
         description: "A full-stack contact management app built as the final project for Harvard's CS50x course. Add, view, update, and delete contacts with a responsive and modern UI",
         stack: [
@@ -70,7 +123,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/Contacts-CS50x_2025-Final-Project",
     },
     {
-        num: "05",
+        num: "09",
         title: "Birthday Manager",
         description: "A simple and responsive web application for managing birthdays. Users can add, edit, update, and delete birthdays",
         stack: [
@@ -81,7 +134,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/Birthday-Manager",
     },
     {
-        num: "06",
+        num: "10",
         title: "CS50x 2025",
         description: "My Solution for the Harvard CS50's Introduction to Computer Science course",
         stack: [
@@ -92,7 +145,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/CS50X_Computer_Science",
     },
     {
-        num: "07",
+        num: "11",
         title: "Tic-Tac-Toe Game",
         description: "A simple and elegant Tic-Tac-Toe game. Two players take turns to place their marks (X and O) and the game highlights the winner and keeps track of wins.",
         stack: [
@@ -103,7 +156,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/Tic-Tac-Toe_Game_React-JS",
     },
     {
-        num: "08",
+        num: "12",
         title: "Simple Calculator",
         description: "A simple and interactive calculator that supports basic arithmetic operations",
         stack: [
@@ -114,7 +167,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/Simple-Calculator-using-React",
     },
     {
-        num: "09",
+        num: "13",
         title: "THE NEWS",
         description: "Responsive news website with multiple sections, live news updates using API, search functionality, and mobile-friendly design.",
         stack: [
@@ -125,7 +178,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/THE-NEWS_EcodeCamp-Internship",
     },
     {
-        num: "10",
+        num: "14",
         title: "To-Do List Web App",
         description: "A simple To-Do List application that allows you to add, edit, delete, and mark tasks as complete or pending, with a visually appealing interface and dark mode support.",
         stack: [
@@ -136,7 +189,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/To-Do_List_App-Brainwave_Matrix_Intern",
     },
     {
-        num: "11",
+        num: "15",
         title: "Grill Master - Restaurant & Recipe Hub",
         description: "A website showcasing a fictional restaurant with a searchable recipe catalog.",
         stack: [
@@ -147,7 +200,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/Grill-Master_Restaurant-and-Recipe-Hub_EcodeCamp-Internship",
     },
     {
-        num: "12",
+        num: "16",
         title: "Introduction to Node.js (LFW111)",
         description: "My workspace for the Introduction to Node.js course. It includes the materials and work that I did throughout the course, showcasing various aspects of Node.js.",
         stack: [
@@ -158,7 +211,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/Introduction-to-Node.js-LFW111",
     },
     {
-        num: "13",
+        num: "17",
         title: "HTML and CSS in depth",
         description: "My Workspace for the Meta HTML and CSS in depth course.",
         stack: [
@@ -169,7 +222,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/HTML-and-CSS-in-depth",
     },
     {
-        num: "14",
+        num: "18",
         title: "Little Lemon Restaurant",
         description: "A responsive website for a fictional restaurant, created as part of the Meta HTML and CSS in depth course.",
         stack: [
@@ -180,7 +233,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/HTML-and-CSS-in-depth/tree/main/docs",
     },
     {
-        num: "15",
+        num: "19",
         title: "Weather Now 🌤️",
         description: "This app provides real-time weather updates, including temperature, wind speed, humidity, and a 5-day weather forecast.",
         stack: [
@@ -191,7 +244,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/Weather-App",
     },
     {
-        num: "16",
+        num: "20",
         title: "Simple Text Editor",
         description: "A Python-based text editor with features like Formating Text, Font Size, Style, and more.",
         stack: [
@@ -202,7 +255,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/CS50_Python/tree/main/Simple%20Text%20Editor",
     },
     {
-        num: "17",
+        num: "21",
         title: "CS50P",
         description: "My Solution for the Harvard CS50's Introduction to Programming with Python course",
         stack: [
@@ -213,7 +266,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/CS50_Python",
     },
     {
-        num: "18",
+        num: "22",
         title: "Simple Chatbot",
         description: "Created a simple chatbot that can engage in basic conversations with users using the spaCy library in Python.",
         stack: [
@@ -224,7 +277,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/Codeclause_AI_Internship/tree/main/Chatbot%20Creation",
     },
     {
-        num: "19",
+        num: "23",
         title: "Image Recognition using CNN",
         description: "Created a Convolutional Neural Network (CNN) based image classifier using Python and TensorFlow to categorize images into predefined categories.",
         stack: [
@@ -235,7 +288,7 @@ const projects = [
         github: "https://github.com/muhammadhuzaifayousaf/Codeclause_AI_Internship/tree/main/Image%20Recognition",
     },
     {
-        num: "20",
+        num: "24",
         title: "Phonebook Application",
         description: "A phonebook application developed in C++ with features like contact management with search functionality and a user-friendly interface.",
         stack: [
